@@ -1,0 +1,3 @@
+#!/bin/sh
+
+./configure -opensource -static -release -exceptions -qtnamespace -accessibility -no-libjpeg -no-libmng -no-libpng -no-gif -no-libtiff -nomake tools -nomake tests -nomake examples -qtnamespace robotino_api2_qt -prefix "/home/ubuntu/qt-build-config" -no-glib -no-opengl -qt-zlib -no-gui -no-openssl -no-xkb -no-qdbus -no-nis -no-audio-backend -no-xshape -no-xsync -no-iconv -no-mitshm -xmlpatterns -no-script -no-scripttools -system-freetype
