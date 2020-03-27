@@ -1,0 +1,10 @@
+#!/bin/sh
+set -e
+. /usr/share/debconf/confmodule
+
+if [ "$1" = "configure" ]; then
+        chown -R root:root /usr/local/Qt4.7.4
+        chown root:root /etc/ld.so.conf.d/Qt4.7.4.conf
+        echo "PATH=/usr/local/Qt4.7.4/bin:$PATH" >> /etc/environment
+        ldconfig
+fi

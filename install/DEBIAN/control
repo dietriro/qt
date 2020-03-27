@@ -1,0 +1,10 @@
+Package: qt4
+Version: 4.7.4
+Section: base
+Priority: optional
+Architecture: i386
+Depends:
+Conflicts:
+Replaces:
+Maintainer:
+Description: Qt4.7.4 built for Robotino V1
